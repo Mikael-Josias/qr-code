@@ -58,3 +58,10 @@ body {
     text-align: center;
     color: var(--grayish-blue);
 }
+
+@media screen and (width <= 375px) {
+    .card {
+        margin: 12px;
+        max-width: 100%;
+    }
+}
